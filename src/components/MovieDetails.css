@@ -1,0 +1,11 @@
+
+.wrapperStyle{
+	display: flex;
+	margin-top: 80px;
+}
+
+@media screen and (max-width: 700px){
+	.wrapperStyle{
+		flex-direction: column;
+	}
+}
